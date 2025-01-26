@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Inauguración de Nueva Sucursal",
+        "contenido": "Estamos emocionados de anunciar la apertura de nuestra nueva sucursal. Visítanos en la Avenida Principal número 123."
+    },
+    {
+        "titulo": "Descuentos de Verano",
+        "contenido": "Aprovecha nuestros descuentos de verano con hasta el 50% de descuento en productos seleccionados. ¡No te lo pierdas!"
+    },
+    {
+        "titulo": "Lanzamiento de Nueva Línea de Productos",
+        "contenido": "Presentamos nuestra nueva línea de productos sostenibles, diseñados para cuidar de ti y del medio ambiente."
+    }
+]

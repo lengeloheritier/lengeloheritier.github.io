@@ -1,0 +1,12 @@
+
+[
+    {"src": "images/galeria2.jpg", 
+    "alt": "Imagen 1"
+},
+    {"src": "images/galeria3.jpg",
+     "alt": "Imagen 2"
+},
+    {"src": "images/galeria1.jpg", 
+    "alt": "Imagen 3"
+}
+]

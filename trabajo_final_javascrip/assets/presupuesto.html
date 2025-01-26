@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto - Arobase Conception</title>
+    <link rel="icon" href="../images/favicon.ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/scripts.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Arobase Conception</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="presupuesto.html">Presupuesto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h2>Solicitar Presupuesto</h2>
+
+        <!-- Formulario de Presupuesto -->
+        <form id="formulario-presupuesto" class="formulario">
+            <!-- Datos de contacto -->
+            <fieldset>
+                <legend>Datos de Contacto</legend>
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="15" required placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" maxlength="40" required placeholder="Escribe tus apellidos">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" maxlength="9" required placeholder="Ejemplo: 123456789">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ejemplo: correo@dominio.com">
+                </div>
+            </fieldset>
+
+            <!-- Selección del presupuesto -->
+            <fieldset>
+                <legend>Detalles del Presupuesto</legend>
+
+                <!-- Selección del producto -->
+                <div class="form-group">
+                    <label for="producto">Producto:</label>
+                    <select id="producto" name="producto" required>
+                        <option value="" disabled selected>Selecciona un producto...</option>
+                        <option value="producto1">Sardinha 1 - $100</option>
+                        <option value="producto2">Salsicha 2 - $200</option>
+                        <option value="producto3">Frejol 3 - $300</option>
+                    </select>
+                </div>
+
+                <!-- Plazo -->
+                <div class="form-group">
+                    <label for="plazo">Plazo (meses):</label>
+                    <input type="number" id="plazo" name="plazo" min="1" max="12" required placeholder="Ejemplo: 6">
+                </div>
+
+                <!-- Extras -->
+                <fieldset class="">
+                    <legend>Extras Opcionales</legend>
+
+                    <label><input type="checkbox" name="extra" value="50"> Extra 1 - $50</label><br />
+                    <label><input type="checkbox" name="extra" value="75"> Extra 2 - $75</label><br />
+                    <label><input type="checkbox" name="extra" value="100"> Extra 3 - $100</label><br />
+                </fieldset>
+
+                <!-- Presupuesto final -->
+                <div class="">
+                    <label for="presupuesto-final">Presupuesto Final:</label>
+                    <input type="text" id="presupuesto-final" name="" readonly placeholder="$0.00">
+                </div>
+            </fieldset>
+
+            <!-- Condiciones y envío -->
+            <fieldset class="">
+                <legend>Condiciones y Envío</legend>
+
+                <!-- Aceptar condiciones -->
+                <div class="">
+                    <label><input type="checkbox" id="" name="" required> Acepto las condiciones de privacidad.</label><br />
+                </div>
+
+                <!-- Botones de envío -->
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Réseaux Sociaux</h3>
+                    <ul>
+                        <li><a href="#"><i class="icon ion-social-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="icon ion-social-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="icon ion-social-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="icon ion-social-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:contacto@empresa.com">Email: contacto@empresa.com</a></li>
+                        <li><a href="tel:123-456-7890">Téléphone: 123-456-7890</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Arobase Conception</h3>
+                    <p>230 Denison Ouest, Granby, Québec, J2G 4E1</p>
+                </div>
+            </div>
+            <p class="copyright">Arobase Conception © 2025</p>
+        </div>
+    </footer>  
+    
+    <!-- Inclusión del script JS -->
+    
+</body>
+</html>
